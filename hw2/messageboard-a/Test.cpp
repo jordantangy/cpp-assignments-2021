@@ -52,8 +52,6 @@ CHECK(board.read(10, 113, Direction::Horizontal, 10) == "one");
 CHECK(board.read(200, 200, Direction::Horizontal, 19) == "giving math classes");
 CHECK(board.read(200, 207, Direction::Horizontal, 4) == "math");
 
-
-
-
 }
+
 
