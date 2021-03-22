@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include "Board.hpp"
 
-void ariel::Board::post(unsigned int row, unsigned int column,Direction d, string s){
+void ariel::Board::post(unsigned int row, unsigned int column,Direction d,const string &s){
     string e = "Invalid argument - row and column should be numbers greater than 0";
     if (row < 0 || column < 0){
         throw invalid_argument(e);

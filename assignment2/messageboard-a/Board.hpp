@@ -11,7 +11,7 @@ class Board{
     Board(){
         board = {};
     }
-    void post(unsigned int row, unsigned int column,Direction d,string s);  
+    void post(unsigned int row, unsigned int column,Direction d,const string &s);  
     string read(unsigned int row, unsigned int column,Direction d,int length);
     Board& show();
     ~Board();
